@@ -14,6 +14,9 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bonheur+Royale&family=Limelight&display=swap" rel="stylesheet">
 <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous"> -->
 </head>
 
@@ -25,6 +28,11 @@
             <a href="#" class="nav_branding">QueenoftheNile</a>
             
             <ul class="nav-menu">
+
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link">Home</a>
+                </li>
+
                 <li class="nav-item dropdown">
                     <a href="#" class="nav-link">Products</a>
                     <div class="dropdown-content">
@@ -83,41 +91,35 @@
         </div>
 
      <!-- Here we create a Featured Products -->
+     <!-- We will be creating Cards that change on hover -->
 
         <div class="productHolder">
             <div class="card">
-                <img src="./styles/images/306303143_773555560591050_3860794125318637424_n.jpg" alt="candle">
-                    <div class="cardText">
-                        <p class="catergoryText">Candles Collection</p>
-                        <!-- <p class="brandText">Queen of the Nile Candles</p> -->
-                    <a href="#" class="link-to-page">View More</a>
+                <img src="./styles/images/306303143_773555560591050_3860794125318637424_n.jpg" alt="candle" class="image-back">
+                <!-- <img src="./styles/images/candle held.jpeg" alt="candle" class="image-front">      -->
+                <div class="cardText">
+                    <a href="#" class="link-to-page"> View Candles Collection</a>
                 </div>       
             </div>
 
             <div class="card">
                 <img src="./styles/images/306303143_773555560591050_3860794125318637424_n.jpg" alt="candle">
                     <div class="cardText">
-                        <p class="catergoryText">Bags Collection</p>
-                        <!-- <p class="brandText">Queen of the Nile Candles</p> -->
-                    <a href="#" class="link-to-page">View More</a>
+                    <a href="#" class="link-to-page">View Bags Collection</a>
                 </div>       
             </div>
 
             <div class="card">
                 <img src="./styles/images/306303143_773555560591050_3860794125318637424_n.jpg" alt="candle">
                     <div class="cardText">
-                        <p class="catergoryText">Baby Stuff Collection</p>
-                        <!-- <p class="brandText">Queen of the Nile Candles</p> -->
-                    <a href="#" class="link-to-page">View More</a>
+                    <a href="#" class="link-to-page">View Baby Collection</a>
                 </div>       
             </div>
 
             <div class="card">
                 <img src="./styles/images/306303143_773555560591050_3860794125318637424_n.jpg" alt="candle">
                     <div class="cardText">
-                        <p class="catergoryText">Clothes Collection</p>
-                        <!-- <p class="brandText">Queen of the Nile Candles</p> -->
-                    <a href="#" class="link-to-page">View More</a>
+                    <a href="#" class="link-to-page">View Clothes Collection</a>
                 </div>       
             </div>
 
@@ -128,28 +130,25 @@
 
     <!-- Here we create a Mission Statment and  -->
         <section class="about-section">
-          <p id="about">About Us</p>
-    <p class="about-text">
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo at ex deserunt dolore officiis impedit blanditiis nesciunt dolores repellat iste exercitationem nobis velit, doloribus nam eveniet fuga, ea dolor qui!
-    </p>  
-
+          <p id="about">About Us</p>  
         <div class="flexbox-container">
             <div class="flexbox-item" id="flexbox-item1">
-                <p class="flex-text">Mission</p> 
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem dolor exercitationem tempore blanditiis, rem reiciendis dolores facilis harum modi consectetur? Laboriosam impedit dolores nostrum dolor. Quia rem nisi architecto minima.</p>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum, animi distinctio debitis, tempore veritatis quo magni odit repellendus corporis vero cumque sapiente, voluptate similique. Odit doloribus optio sunt assumenda laudantium.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam exercitationem, nostrum ipsum dolorum possimus nemo saepe fugiat fugit sequi quidem magni, reprehenderit architecto? Temporibus omnis est qui libero earum molestias?</p>
+                <p class="flex-text">We target Royalty and Serve them with Candles from South Africa</p> 
+                <p class="flex-par">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem error, ab voluptas reiciendis atque nobis eveniet dignissimos earum tempore aspernatur possimus molestias praesentium! Animi, mollitia eaque dolore iusto quidem repudiandae? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus necessitatibus, ducimus eveniet perspiciatis repellat veritatis expedita pariatur porro soluta voluptatum nisi assumenda quibusdam deleniti perferendis deserunt excepturi vel alias quisquam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem dolor exercitationem tempore blanditiis, rem reiciendis dolores facilis harum modi consectetur? Laboriosam impedit dolores nostrum dolor. Quia rem nisi architecto minima.</p>
+                <p class="flex-par">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui beatae quos eaque dolorem, voluptatem nisi eligendi odio laboriosam voluptatibus dolorum mollitia optio ducimus rerum sapiente rem in cupiditate quo ullam? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum, animi distinctio debitis, tempore veritatis quo magni odit repellendus corporis vero cumque sapiente, voluptate similique. Odit doloribus optio sunt assumenda laudantium.</p>
+                <p class="flex-par">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde ea repellendus quo nihil fugit culpa, non temporibus ad aperiam illum ducimus ipsam beatae, distinctio deleniti nemo vitae corrupti quisquam amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam exercitationem, nostrum ipsum dolorum possimus nemo saepe fugiat fugit sequi quidem magni, reprehenderit architecto? Temporibus omnis est qui libero earum molestias?</p>
             </div>
-            <div class="flexbox-item" id="flexbox-item2">
-                <p class="flex-text">Mission</p> 
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem dolor exercitationem tempore blanditiis, rem reiciendis dolores facilis harum modi consectetur? Laboriosam impedit dolores nostrum dolor. Quia rem nisi architecto minima.</p>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum, animi distinctio debitis, tempore veritatis quo magni odit repellendus corporis vero cumque sapiente, voluptate similique. Odit doloribus optio sunt assumenda laudantium.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam exercitationem, nostrum ipsum dolorum possimus nemo saepe fugiat fugit sequi quidem magni, reprehenderit architecto? Temporibus omnis est qui libero earum molestias?</p>
             
-            </div>
         </div>
 
-        <p class="about-link"><a href="#">Learn More About Us</a></p>
+        <p class="about-link"><a href="#">Have a look at a variety of our Products</a></p>
+        <blockquote>
+            <p>
+                <i>"Enethunga ayisengeli phansi"</i> <br> 
+               <i>"He who has a milking bucket sould not be obliged to milk on the ground."</i> <br>
+                Meaning: If you have an opportunity, do not share it with oters and be inconvenienced, all in te name of Being Kind.
+            </p>
+        </blockquote>
         </section>
 <!-- This is our footer section -->
         <footer>
@@ -172,12 +171,9 @@
                 <li><a href="#">About Us</a></li>
                 <li><a href="#">Contact Us</a></li>
             </ul>
-            <p>@2022 <a href="#">Bo Web Media</a>  | All Rights Reserved | Queen of the Nile Artistry</p>
+            <p> <a href="#">@2022 Bo Web Media  | All Rights Reserved | Queen of the Nile Artistry</a></p>
 
         </footer>
-
-    
-
 
 
         <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
