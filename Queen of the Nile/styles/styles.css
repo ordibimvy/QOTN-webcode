@@ -11,7 +11,8 @@ body {
     background-color: beige;
     color: #996515;
     /* position: relative; */
-    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: 'Bonheur Royale', cursive;
 
 }
 /* HEADER CSS */
@@ -41,6 +42,8 @@ a {
     align-items: center;
     padding: 0 24px;
     height: 55px;
+    font-family: 'Bonheur Royale', cursive;
+    font-size: 28px;
 }
 
 .nav-menu {
@@ -48,6 +51,7 @@ a {
     justify-content: space-between;
     align-items: center;
     gap: 100px;
+    font-weight: 500;
 }
 
 .nav-branding {
@@ -135,6 +139,7 @@ a {
     background-color: beige;
     min-width: 200px;
     /* box-shadow: 2px 2px 2px 0px #a3742c; */
+    /* transition: 1s; */
     z-index: 1;
   }
   
@@ -143,6 +148,7 @@ a {
     padding: 12px 16px;
     text-decoration: none;
     display: block;
+    transition: 0.5s;
   }
   
   .dropdown-content a:hover {background-color: #996515; color: beige;}
@@ -155,6 +161,7 @@ a {
     /* margin: 0; */
     text-align: center;
     margin: 0 auto;
+
   }
 
   .banner-area {
@@ -166,6 +173,7 @@ a {
     text-align: center;
     width: 100%;
     position: fixed;
+    font-family: 'Bonheur Royale', cursive;
     /* z-index: 0; */
      
   }
@@ -187,35 +195,38 @@ a {
     /* font-family: 'Pacifico', cursive; */
     padding-top: 4%;
     font-size: 70px;
-    font-weight: lighter;
+    font-weight:bold;
     /* text-align: center; */
     text-transform: uppercase;
   }
 
   .content-area {
     width: 100%;
-    min-height: 180vh;
+    min-height: 100vh;
     position: relative;
     background-color: beige;
     top: 420px
   }
 
   .content-area h2 {
-    font-size: 40px;
+    font-size: 70px;
     margin: 0;
     padding-top: 30px;
     letter-spacing: 4px;
+    font-weight: lighter;
   }
 
   .content-area p {
-    padding: 2% 0;
-    line-height: 30px;
+    padding-bottom: 30px ;
+    line-height: 20px;
     text-align: center;
+    font-size: 24px;
   }
 
   .call-to-action {
     text-align: center;
     padding-bottom: 10px;
+    font-size: 32px;
   }
 
   .call-to-action-btn a {
@@ -224,12 +235,14 @@ a {
     padding: 10px 20px;
     border: 1px solid #996515;
     border-radius: 10px;
+    transition: 1s;
+    font-size: 32px;
   }
 
   .call-to-action-btn a:hover {
     background-color: #996515;
     color: beige;
-    transition: 1s ease;
+    transition: 1s ;
  }
 
 @media (max-width:768px) {
@@ -240,14 +253,19 @@ a {
     .content-area {
         top: 270px;
     }
+
+    .call-to-action, .call-to-action-btn {
+        font-size: 24px;
+    }
 }
 
 #topics {
     
-    font-size: 24px;
-    margin-left: 15px;
+    font-size: 30px;
+    padding: 20px;
+    /* margin-left: 15px; */
     text-transform: uppercase;
-    letter-spacing: 2px;
+    letter-spacing: 4px;
     text-align: center;
     font-weight: bold;
     
@@ -261,7 +279,7 @@ a {
 }
 
 .card {
-    /* cursor: pointer; */
+    cursor: pointer;
     background: #996515;
     display: flex;
     flex-direction: column;
@@ -272,34 +290,42 @@ a {
     border-radius: 1rem;
     margin: 1rem;
     transition: 0.3s;
-    padding-bottom: 12px;
-    
+    padding-bottom: 15px;
 }
+
 
 .card:hover {
    transform: scale(1.1);
+    cursor: pointer;
 }
 
 .cardText * {
-    /* margin: 0.5rem; */
+    margin: 1.5rem;
     color: beige;
     
 }
 
-.categoryText {
-    font-weight: 400;
+.catergoryText {
+    /* margin-top: 10px; */
+    
+    font-weight: 500;
     opacity: 0.7;
+    border: solid 1px black;
 }
 
 .brandText {
+    
     color: beige;
     font-size: 14px;
     font-family: 'Poppins', sans-serif;
 }
 
 .link-to-page {
+    font-size: 24px;
     /* border: solid white 1px; */
-    padding: 5px 30px;  
+    padding: 10px 10px;  
+    border-radius: 5px;
+    background-color: #996515;
 }
 
 .link-to-page:hover {
@@ -322,36 +348,49 @@ a {
 }
 
 .about-section {
-    min-height: 140vh;
-    width: 100%;
-    background-color: aqua;
+    min-height: 110vh;
+    /* width: 100%; */
+    background-color: rgb(255, 255, 255);
     text-align: center;
 }
 
 .about-text {
-    /* border: 1px solid black; */
+    border: 1px solid black;
     display: inline;  
     
 }
 
 .flexbox-container {
-    min-height: 80vh;
+    min-height: 55vh;
+    margin-bottom: 50px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
     align-content: center;
-    background-color: purple;
+    /* background-color: rgb(151, 34, 34); */
 }
 
 .flexbox-item {
-    width: 49vw;
-    height: 450px;
-    border: 1px solid black;
-    background-color: greenyellow;
+    padding: 10px;
+    /* font-size: 100px; */
+    width: 70%;
+    height: 380px;
+    /* border: 1px solid black; */
+    background-color: beige;
+    
 
 }
 
+#flexbox-item1 {
+    transition: 1s;
+}
+#flexbox-item1:hover {
+    
+    transition: 1s;
+    color: beige;
+    background-color: #996515;
+}
 .about-link a {
     padding: 10px;
     background-color: #996515;
@@ -368,7 +407,7 @@ a {
 @media(max-width:768px) {
     .about-section {
         width: 100%;
-        height: 65vh;
+        height: 60vh;
     }
 
     .flexbox-container {
@@ -384,7 +423,7 @@ a {
 footer {
     position: relative;
     width: 100%;
-    background: #3586ff;
+    background: #996515;
     min-height: 100px;
     padding: 20px 50px;
     display: flex;
@@ -410,8 +449,8 @@ footer .menu li {
 }
 
 footer .social-icon li a {
-    font-size: 2em;
-    color: #fff;
+    font-size: 28px;
+    color: beige;
     margin: 0 10px;
     display: inline-block;
     transition: 0.5s;
@@ -419,11 +458,12 @@ footer .social-icon li a {
 
 footer .social-icon li a:hover {
     transform: translateY(-10px);
+    
 }
 
 footer .menu li a {
-    font-size: 1.2em;
-    color: #fff;
+    font-size: 32px;
+    color: beige;
     margin: 0 10px;
     display: inline-block;
     text-decoration: none;
@@ -435,11 +475,25 @@ footer .menu li a:hover {
 }
 
 footer p, footer p a {
-   color: #fff;
+   color: beige;
    text-align: center;
    margin-top: 15px; 
    margin-bottom: 10px;
    font-size: 1em;
+}
+
+footer p a:hover {
+    background-color: beige;
+    color: #996515;
+    border-radius: 10px;
+    transition: 1s;
+    padding: 0 30px;
+}
+
+footer p a {
+    transition: 1s;
+    padding: 0 50px;
+    border-radius: 10px;
 }
 
 footer .wave {
@@ -448,7 +502,7 @@ footer .wave {
     left: 0;
     width: 100%;
     height: 100px;
-    background: url(./images/wave.png);
+    background: url(./images/wave2.png);
     background-size: 1000px 100px;
 }
 
