@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Queen of the Nile Artistry</title>
     <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="./styles/contact.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
@@ -30,16 +31,16 @@
             <ul class="nav-menu">
 
                 <li class="nav-item dropdown">
-                    <a href="index.html" class="nav-link">Home</a>
+                    <a href="/index.html" class="nav-link">Home</a>
                 </li>
 
                 <li class="nav-item dropdown">
                     <a href="products.html" class="nav-link">Products</a>
                     <div class="dropdown-content">
-                        <a href="#" class="dropdown-link">Royal Candles</a>
-                        <a href="#" class="dropdown-link">Pearl Bags </a>
-                        <a href="#" class="dropdown-link">Royal Baby</a>
-                        <a href="#" class="dropdown-link">Clothes </a>
+                        <a href="/candles.html" class="dropdown-link">Royal Candles</a>
+                        <a href="/bags.html" class="dropdown-link">Pearl Bags </a>
+                        <a href="/baby.html" class="dropdown-link">Royal Baby</a>
+                        <a href="/clothes.html" class="dropdown-link">Clothes </a>
                     </div>
                 </li>
 
@@ -76,88 +77,32 @@
     <!-- Here we create our banner -->
 
     <div class="banner-area">
-        <h2>Queen of the Nile Artistry</h2>
-        <p class="call-to-action">Want to work on a much Larger Project?</p>
-        <p class="call-to-action-btn"><a href="#">Get a Quote</a></p>
+        <h2>Contact Us</h2>
+        <!-- <p class="call-to-action">Want to work on a much Larger Project?</p>
+        <p class="call-to-action-btn"><a href="#">Get a Quote</a></p> -->
     </div>
 
     <div class="content-area">
         <div class="wrapper">
-            <h2>Welcome</h2>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum quaerat ipsa corrupti minus eveniet nulla accusantium incidunt sunt, quisquam tempora quas voluptate iusto impedit facilis provident! Eligendi voluptates perferendis accusamus.
-            </p>
-            <p id="topics">Featured Products</p>
-        </div>
+            <h2>We are here to Help</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et itaque molestiae ab laudantium incidunt minus laboriosam error aspernatur optio quisquam asperiores, veritatis obcaecati eaque, suscipit cumque, exercitationem ipsa. Atque, nemo?</p>
+                <form onsubmit="sendEmail(); reset(); return false;">
+                    <h3>Get in Touch</h3>
+                    <input type="text" id="name" placeholder="Your Name" required>
+                    <input type="email" id="email" placeholder="Enter your Email Address" required>
+                    <input type="text" id="phone" placeholder="Phone No." required>
+                    <textarea name="" id="message"  rows="4" placeholder="How can we help you?"></textarea>
+                    <button type="submit">Send</button>
 
-     <!-- Here we create a Featured Products -->
-     <!-- We will be creating Cards that change on hover -->
 
-        <div class="productHolder">
-            <div class="card">
-                <img src="./styles/images/306303143_773555560591050_3860794125318637424_n.jpg" alt="candle" class="image-back">
-                <!-- <img src="./styles/images/candle held.jpeg" alt="candle" class="image-front">      -->
-                <div class="cardText">
-                    <a href="#" class="link-to-page"> View Candles Collection</a>
-                </div>       
-            </div>
+                </form>
 
-            <div class="card">
-                <img src="./styles/images/306303143_773555560591050_3860794125318637424_n.jpg" alt="candle">
-                    <div class="cardText">
-                    <a href="#" class="link-to-page">View Bags Collection</a>
-                </div>       
-            </div>
-
-            <div class="card">
-                <img src="./styles/images/306303143_773555560591050_3860794125318637424_n.jpg" alt="candle">
-                    <div class="cardText">
-                    <a href="#" class="link-to-page">View Baby Collection</a>
-                </div>       
-            </div>
-
-            <div class="card">
-                <img src="./styles/images/306303143_773555560591050_3860794125318637424_n.jpg" alt="candle">
-                    <div class="cardText">
-                    <a href="#" class="link-to-page">View Clothes Collection</a>
-                </div>       
-            </div>
-
-            
-            
 
         </div>
 
-    <!-- Here we create a Mission Statment and  -->
-        <section class="about-section">
-          <p id="about">About Us</p>  
-        <div class="flexbox-container">
-            <div class="flexbox-item" id="flexbox-item1">
-                <p class="flex-text">We target Royalty and Serve them with Candles from South Africa</p> 
-                <p class="flex-par">The Journey to Greatness begins with a Vision & Curiosity
-                                    So we at Queen of the Nile Artistry took it upon us ti 
-                                    discover the hidden truth within the vision and discovered an abundance of Talent, 
-                                    here we are today a Multi-Talnted Brand that Aims to become a symbol
-                                    of beauty and feminity.
-                </p>
-                <p class="flex-par">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim officiis saepe eaque delectus perspiciatis, non vitae. Et eius consequuntur adipisci doloremque nemo pariatur similique quo! 
-                    Deserunt exercitationem veritatis sapiente harum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro facilis qui possimus reprehenderit hic distinctio minus aspernatur, enim doloribus non suscipit, impedit recusandae ratione amet sunt,
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste suscipit eum atque neque quis dignissimos. Maxime, qui fugiat tempora harum voluptate aut repellat rerum ipsa, autem voluptatem aspernatur, numquam vel. reiciendis soluta nostrum dignissimos.
+    </div>
 
-                </p>
-            </div>
-            
-        </div>
-
-        <p class="about-link"><a href="#">Have a look at a variety of our Products</a></p>
-        <blockquote class="quote-section">
-            <p>
-                <i>"Enethunga ayisengeli phansi"</i> <br> 
-               <i>"He who has a milking bucket sould not be obliged to milk on the ground."</i> <br>
-                Meaning: If you have an opportunity, do not share it with oters and be inconvenienced, all in te name of Being Kind.
-            </p>
-        </blockquote>
-        </section>
+ 
 <!-- This is our footer section -->
         <footer>
             <div class="waves">
@@ -182,6 +127,8 @@
             <p> <a href="#">@2022 Bo Web Media  | All Rights Reserved | Queen of the Nile Artistry</a></p>
 
         </footer>
+
+
 
 
         <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>

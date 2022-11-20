@@ -1,0 +1,85 @@
+.banner-area {
+    background-image: url(./images/background.jpeg);
+    background-size: cover;
+    background-position: right;
+    height: 38vh;
+    top: 0vh;
+}
+
+.content-area {
+    top: 40vh;
+    
+}
+
+.content-area .wrapper h2 {
+    /* border: 1px solid black; */
+    display: inline-block;
+    padding-top: 0;
+}
+
+footer {
+    top: 20vh;
+}
+
+.productHolder {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.card {
+    cursor: pointer;
+    background: #996515;
+    display: flex;
+    flex-direction: column;
+    min-width: 200px;
+    max-width: 300px;
+    text-align: center;
+    min-height: 270px;
+    border-radius: 1rem;
+    margin: 1rem;
+    transition: 0.3s;
+    padding-bottom: 15px;
+}
+
+.card2 {
+    cursor: pointer;
+    background: #996515;
+    display: flex;
+    flex-direction: column;
+    min-width: 200px;
+    max-width: 400px;
+    text-align: center;
+    min-height: 300px;
+    border-radius: 1rem;
+    margin: 1rem;
+    transition: 0.3s;
+    padding-bottom: 15px;
+}
+
+.card:hover {
+   transform: scale(1.1);
+    cursor: pointer;
+}
+
+.card2:hover {
+    transform: scale(1.1);
+     cursor: pointer;
+ }
+
+
+.about-link {
+    /* border: 1px solid black; */
+    /* display: inline-block; */
+    padding: 40px;
+}
+
+.about-link a {
+    padding: 20px 40px;
+    border-radius: 10px;
+    font-size: 32px;
+}
+ 
+
+

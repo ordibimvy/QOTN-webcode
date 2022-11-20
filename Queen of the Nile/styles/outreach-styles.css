@@ -7,7 +7,7 @@
     background-size: cover;
     background-position: right;
     top:55px; 
-    height: 10vh;
+    height: 40vh;
     text-align: center;
     /* width: 100%; */
     position: fixed;
@@ -31,20 +31,20 @@
 
   .banner-area h2 {
     /* font-family: 'Pacifico', cursive; */
-    font-family: 'Le Major';
+    font-family: 'Le Major', Bonheur Royale;
     padding-top: 4%;
-    font-size: 60px;
+    font-size: 70px;
     /* font-weight:bold; */
     /* text-align: center; */
-    text-transform: uppercase;
+    text-transform: capitalize;
   }
 
   .content-area {
     width: 100%;
-    min-height: 100vh;
+    /* min-height: 10vh; */
     position: relative;
     background-color: beige;
-    top: 250px
+    top: 50vh
   }
 
   .content-area h2 {
@@ -84,7 +84,8 @@
     }
 
     .content-area {
-        top: 100px;
+        top: 220px;
+        /* height: 220px; */
     }
     
     .content-area h2 {
@@ -97,6 +98,6 @@
     }
 
     footer {
-        top: 10vh;
+        top: 17vh;
     }
 }

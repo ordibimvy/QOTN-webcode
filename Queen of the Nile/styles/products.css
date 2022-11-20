@@ -1,0 +1,28 @@
+.banner-area {
+    height: 35vh;
+    background-image: url(/styles/images/background.jpeg);
+    /* font-family: 'Le Major', Bonheur Royale; */
+}
+
+.content-area {
+    top: 42vh;
+    /* border: 1px solid black; */
+    
+}
+
+footer {
+    top: 20vh
+}
+
+
+@media (max-width: 768px) {
+    .banner-area {
+        background-position: right;
+        background-size: cover;
+    }
+
+    .content-area {
+        top: 30vh;
+    }
+}
+
